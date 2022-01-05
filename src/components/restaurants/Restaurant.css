@@ -1,0 +1,31 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.restaurant {
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.rating, .deliveryTime{
+    margin-right: 25px;
+}
+
+.fa-star:before {
+    content: "\f005";
+}
+
+.fa-euro-sign:before {
+    content: "\f153";
+}
+
+.fa-coins:before {
+    content: "\f51e";
+}
+
+.fa-clock:before {
+    content: "\f017";
+}
